@@ -6,37 +6,67 @@
  * Date: 10/15/2019
  * Time: 1:18 PM
  */
-
-class Home extends CI_Controller {
+class Home extends CI_Controller
+{
 
     public function index()
     {
-        $data['page_load'] = 'home';
-        $this->load->view('includes/template',$data);
+        $data['page_load'] = 'dashboard';
+        $this->load->view('includes/template', $data);
 
     }
 
-    public function services()
+    public function attendance()
     {
-        $data['page_load'] = 'services';
-        $this->load->view('includes/template',$data);
+        $data['page_load'] = 'attendance';
+        $this->load->view('includes/template', $data);
     }
 
-    public function about()
+    public function employee_list()
     {
-        $data['page_load'] = 'about';
-        $this->load->view('includes/template',$data);
+        $data['page_load'] = 'employee_list';
+        $this->load->view('includes/template', $data);
     }
 
-    public function contact()
+    public function button()
     {
-        $data['page_load'] = 'contact';
-        $this->load->view('includes/template',$data);
+        $data['page_load'] = 'button';
+        $this->load->view('includes/template', $data);
     }
 
-    public function article()
+    public function card()
     {
-        $data['page_load'] = 'article-page';
-        $this->load->view('includes/template',$data);
+        $data['page_load'] = 'card';
+        $this->load->view('includes/template', $data);
+    }
+
+    public function color()
+    {
+        $data['page_load'] = 'color';
+        $this->load->view('includes/template', $data);
+    }
+
+    public function border()
+    {
+        $data['page_load'] = 'border';
+        $this->load->view('includes/template', $data);
+    }
+
+    public function animation()
+    {
+        $data['page_load'] = 'animation';
+        $this->load->view('includes/template', $data);
+    }
+
+    public function other()
+    {
+        $data['page_load'] = 'other';
+        $this->load->view('includes/template', $data);
+    }
+
+    public function payroll()
+    {
+        $data['page_load'] = 'payroll';
+        $this->load->view('includes/template', $data);
     }
 }

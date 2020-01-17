@@ -60,7 +60,7 @@
 /* ==========================================================================
      Base styles: opinionated defaults
 ========================================================================== */
-
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800&display=swap');
 html,
 button,
 input,
@@ -120,7 +120,7 @@ fieldset {
 textarea {
   resize: vertical;
   width: 100%;
-  border: 1px solid #e8e8e8;
+  border: 1px solid #0a0a0a;
   padding: 1em 1.5em;
 }
 
@@ -184,8 +184,8 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
-  color: #888888;
+  font-family: 'Poppins',Helvetica,Arial,Lucida,sans-serif;
+  color: #0a0a0a;
   margin: 0;
 }
 
@@ -222,7 +222,7 @@ h4 {
 
 .btn {
   background: #ff4701;
-  color: #ffffff;
+  color: #0a0a0a;
   text-transform: uppercase;
   padding: 4px 18px;
   margin-top: 20px;
@@ -249,8 +249,8 @@ h4 {
 }
 
 body {
-  font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
-  color: #919191;
+  font-family: 'Poppins',sans-serif!important;
+  color: #0a0a0a;
   font-weight: 400;
   font-style: normal;
   font-size: 1rem;
@@ -283,7 +283,7 @@ body {
 }
 
 .header-top strong {
-  color: #55595d;
+  color: #0a0a0a;
 }
 
 .social li {
@@ -356,7 +356,7 @@ body {
 
 .header_top_area .pull-left a {
   font-size: 13px;
-  font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
+  font-family: 'Poppins',Helvetica,Arial,Lucida,sans-serif;
   color: #e8e8e8;
   line-height: 50px;
   margin-right: 60px;
@@ -457,7 +457,7 @@ body {
 .main_menu_area .navbar.navbar-default .nav.navbar-nav.navbar-right li a {
   padding: 0px;
   font-size: 14px;
-  font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
+  font-family: 'Poppins',Helvetica,Arial,Lucida,sans-serif;
   font-weight: bold;
   text-transform: uppercase;
   color: #31353d;
@@ -524,7 +524,7 @@ body {
 .main_menu_area .navbar.navbar-default .nav.navbar-nav.navbar-right li.submenu .dropdown-menu li a {
   line-height: 45px;
   color: #494848;
-  font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
+  font-family: 'Poppins',Helvetica,Arial,Lucida,sans-serif;
   font-weight: normal;
   font-size: 16px;
   padding: 0px 30px;
@@ -614,13 +614,13 @@ body {
 }
 
 .main-nav li a {
-  font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
+  font-family: 'Poppins',Helvetica,Arial,Lucida,sans-serif;
   font-size: 1rem;
   display: inline;
   margin-bottom: 0;
   padding: 15px 0;
   font-weight: 600;
-  color: #888888;
+  color: #0a0a0a;
 }
 
 .main-nav li>a:hover,
@@ -743,7 +743,7 @@ Dropdown menu style
 }
 
 input.empty {
-  font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
+  font-family: 'Poppins',Helvetica,Arial,Lucida,sans-serif;
   font-style: normal;
   font-weight: normal;
   text-decoration: inherit;
@@ -1022,7 +1022,7 @@ offcanvas-menu
   border-radius: 0;
   border: 0;
   margin: 0;
-  color: #888888;
+  color: #0a0a0a;
   font-weight: bold;
   font-size: 1.571rem;
   text-transform: uppercase;
@@ -1136,7 +1136,7 @@ offcanvas-menu
 .activity-head h2 {
   line-height: 1.5em;
   font-weight: 400;
-  color: #888888;
+  color: #0a0a0a;
 }
 
 .activity-head h2 span {
@@ -1259,7 +1259,7 @@ offcanvas-menu
 
 .our-clients-carousel h2 {
   font-weight: 400;
-  color: #888888;
+  color: #0a0a0a;
   padding-bottom: 2.3em;
   line-height: 1.5em;
 }
@@ -1311,7 +1311,7 @@ address {
 
 .responsability ul li::before {
   content: "\f105";
-  font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
+  font-family: 'Poppins',Helvetica,Arial,Lucida,sans-serif;
   position: absolute;
   left: 0;
   color: #ff4701;
@@ -1334,7 +1334,7 @@ address {
 }
 
 .contact-us a {
-  color: #888888;
+  color: #0a0a0a;
 }
 
 .contact-us a:hover {
@@ -1727,7 +1727,7 @@ address {
   border: 1px solid #dd602f;
   color: #fff;
   text-transform: uppercase;
-  font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
+  font-family: 'Poppins',Helvetica,Arial,Lucida,sans-serif;
   font-weight: bold;
   font-size: 14px;
   -webkit-transition: all 400ms linear 0s;
@@ -1751,7 +1751,7 @@ address {
 
 .get_quote_area .pull-left h4 {
   font-size: 22px;
-  font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
+  font-family: 'Poppins',Helvetica,Arial,Lucida,sans-serif;
   color: #fff;
   font-weight: 600;
   padding-top: 17px;
@@ -1771,14 +1771,14 @@ address {
 
 .get_quote_area.project_contact .pull-left h3 {
   font-size: 35px;
-  font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
+  font-family: 'Poppins',Helvetica,Arial,Lucida,sans-serif;
   font-weight: bold;
   color: #31353d;
 }
 
 .get_quote_area.project_contact .pull-left h4 {
   font-size: 25px;
-  font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
+  font-family: 'Poppins',Helvetica,Arial,Lucida,sans-serif;
   color: #444444;
   font-weight: 400;
   padding-top: 2px;
@@ -1797,7 +1797,7 @@ address {
   padding: 0px 35px;
   line-height: 50px;
   font-size: 20px;
-  font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
+  font-family: 'Poppins',Helvetica,Arial,Lucida,sans-serif;
   text-transform: uppercase;
   color: #fff;
   font-weight: bold;
@@ -1853,14 +1853,14 @@ address {
 
 .address_inner .media .media-body h4 {
   font-size: 22px;
-  font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
+  font-family: 'Poppins',Helvetica,Arial,Lucida,sans-serif;
   font-weight: 600;
   color: #444444;
 }
 
 .address_inner .media .media-body h5 {
   font-size: 18px;
-  font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
+  font-family: 'Poppins',Helvetica,Arial,Lucida,sans-serif;
   font-weight: 600;
   color: #444444;
   padding-top: 7px;
@@ -1892,14 +1892,14 @@ address {
   font-size: 24px;
   font-weight: bold;
   text-transform: uppercase;
-  font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
+  font-family: 'Poppins',Helvetica,Arial,Lucida,sans-serif;
   font-weight: bold;
   color: #ff4701;
 }
 
 .about_widget p {
   font-size: 15px;
-  font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
+  font-family: 'Poppins',Helvetica,Arial,Lucida,sans-serif;
   color: #e8e8e8;
   line-height: 20px;
   padding: 13px 0px 17px 0px;
@@ -1946,7 +1946,7 @@ address {
 
 .recent_w_inner .media .media-body p {
   font-size: 15px;
-  font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
+  font-family: 'Poppins',Helvetica,Arial,Lucida,sans-serif;
   color: #e8e8e8;
   line-height: 20px;
 }
@@ -1962,7 +1962,7 @@ address {
 .address_w_inner .media .media-body p {
   font-size: 15px;
   color: #e8e8e8;
-  font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
+  font-family: 'Poppins',Helvetica,Arial,Lucida,sans-serif;
   line-height: 1px;
 }
 
@@ -1973,12 +1973,12 @@ address {
 .give_us_widget h5 {
   font-size: 24px;
   color: #ff4701;
-  font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
+  font-family: 'Poppins',Helvetica,Arial,Lucida,sans-serif;
 }
 
 .give_us_widget h4 {
   font-size: 32px;
-  font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
+  font-family: 'Poppins',Helvetica,Arial,Lucida,sans-serif;
   font-weight: bold;
   color: #ff4701;
   padding: 23px 0px 12px 0px;
@@ -1997,7 +1997,7 @@ address {
 .footer_copy_right h4 {
   color: #e8e8e8;
   font-size: 18px;
-  font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
+  font-family: 'Poppins',Helvetica,Arial,Lucida,sans-serif;
 }
 
 .footer_copy_right h4 i {
@@ -2015,7 +2015,7 @@ address {
 
 .footer_menu li a {
   color: #afafaf;
-  font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
+  font-family: 'Poppins',Helvetica,Arial,Lucida,sans-serif;
   font-size: 18px;
 }
 
@@ -2032,7 +2032,7 @@ address {
   border: 2px solid #ff4701;
   line-height: 50px;
   font-size: 20px;
-  font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
+  font-family: 'Poppins',Helvetica,Arial,Lucida,sans-serif;
   text-transform: uppercase;
   color: #31353d;
   font-weight: bold;

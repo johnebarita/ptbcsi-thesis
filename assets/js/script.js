@@ -68,7 +68,7 @@ jQuery(function ($) {
         $(function() {
             $("#our-client-thumb").owlCarousel({
               pagination: false,
-              autoPlay: 3000, //Set AutoPlay to 3 seconds     
+              autoPlay: 3000, //Set AutoPlay to 3 seconds
               items : 6,
               itemsDesktop : [1199,4],
               itemsTablet : [768,3]
